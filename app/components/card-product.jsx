@@ -1,10 +1,10 @@
 // import { useEffect } from "react"
-export const ProductCard = ({ product }) => {
+export const ProductCard = ({ product, key }) => {
     // useEffect(() => {
     //     console.log(product)
     // }, [])
     return (
-        <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 pt-10">
+        <div class="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 pt-10" key={key}>
             <div className="relative flex items-center justify-center h-56 mx-4 -mt-6 overflow-hidden bg-clip-border rounded-xl bg-blue-gray-500 ">
                 <img
                     src={product.image}
