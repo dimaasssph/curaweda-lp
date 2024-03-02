@@ -4,7 +4,6 @@ import { Banner } from "./components/banner";
 import { ProductSection } from "./sections/products";
 import { menu } from "./data/menu";
 import { products } from "./data/products";
-import { useEffect } from "react";
 
 export default function Home() {
   const menus = menu;
