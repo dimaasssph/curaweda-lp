@@ -1,21 +1,21 @@
 export const menu = [{
-    "title": "Home",
-    "link": "/"
+    title: "Home",
+    link: "/"
   },
   {
-    "title": "Products",
-    "link": "/products"
+    title: "Products",
+    link: "/products"
   },
   {
-    "title": "About Us",
-    "link": "/about-us"
+    title: "About Us",
+    link: "/about-us"
   },
   {
-    "title": "News",
-    "link": "/news"
+    title: "News",
+    link: "/news"
   },
   {
-    "title": "Contact Us",
-    "link": "/contact-us"
+    title: "Contact Us",
+    link: "/contact-us"
   }
 ]
