@@ -4,18 +4,22 @@ export const menu = [{
   },
   {
     title: "Products",
-    link: "/products"
+    link: "#products"
+  },
+  {
+    title: "USP",
+    link: "#usp"
+  },
+  {
+    title: "Portofolio",
+    link: "#portofolio"
+  },
+  {
+    title: "Contact Us",
+    link: "#contact-us"
   },
   {
     title: "About Us",
     link: "/about-us"
-  },
-  {
-    title: "News",
-    link: "/news"
-  },
-  {
-    title: "Contact Us",
-    link: "/contact-us"
   }
 ]

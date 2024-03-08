@@ -1,13 +1,8 @@
-"use client"
 import Image from "next/image"
-import { useEffect } from "react"
 export const Address = ({ data }) => {
     const addresses = data.find((a) => a.key === "office_address")
     const phone = data.find((a) => a.key === "phone")
     const email = data.find((a) => a.key === "email")
-    useEffect(() => {
-        console.log(addresses)
-    }, []);
     return (
         <div className="p-10">
             <Image src={"/assets/image-3.png"} width={120} height={120} />
