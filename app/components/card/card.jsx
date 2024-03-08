@@ -2,7 +2,7 @@
 export const Card = ({ item, shadow = false, textCenter = false }) => {
     return (
         <div
-            class={`relative flex flex-col mt-6 text-gray-700 bg-transparent hover:shadow-md bg-clip-border rounded-xl pt-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#3C7083] hover:text-white duration-400 min-w-300 ${shadow ? 'shadow-xl' : ''}`}
+            class={`relative flex flex-col mt-6 text-gray-700 bg-transparent hover:shadow-md bg-clip-border rounded-xl pt-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#3C7083] hover:text-white duration-400 min-w-300 animate-fade-up animate-once animate-duration-[1500ms] ${shadow ? 'shadow-xl' : ''}`}
         >
             <div className="relative flex items-center justify-center h-56 mx-4 -mt-6 overflow-hidden bg-clip-border rounded-xl bg-blue-gray-500 ">
                 <img

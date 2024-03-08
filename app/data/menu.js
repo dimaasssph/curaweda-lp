@@ -19,6 +19,10 @@ export const menu = [{
     link: "#contact-us"
   },
   {
+    title: "News",
+    link: "/nwes"
+  },
+  {
     title: "About Us",
     link: "/about-us"
   }

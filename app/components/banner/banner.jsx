@@ -6,8 +6,8 @@ export const Banner = () => {
                 <div class="mr-auto lg:col-span-7">
                     <Image src={"/assets/image-3.png"} width={200} height={200} />
                     <h1 class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-4xl xl:text-5xl text-black">The Game Changer of ERP</h1>
-                    <p class="max-w-2xl text-lg md:text-lg text-black">Curaweda optimize processes, reducing human errors and coordination lines.</p>
-                    <p class="max-w-2xl mb-6 text-lg lg:mb-8 md:text-lg text-black">Our modular algorithms offer a cost-effectives and precice ERP solution, providing a competitive edge globally</p>
+                    <p class="max-w-2xl text-lg md:text-lg text-black font-normal">Curaweda optimize processes, reducing human errors and coordination lines.</p>
+                    <p class="max-w-2xl mb-6 text-lg lg:mb-8 md:text-lg text-black font-normal">Our modular algorithms offer a cost-effectives and precice ERP solution, providing a competitive edge globally</p>
                     <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-2xl font-medium hover:scale-110 transition-all text-center text-white bg-[#3C7083] rounded-[75px]">
                         Get Started
                     </a>

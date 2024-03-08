@@ -20,11 +20,11 @@ export const parameterData = [{
     },
     {
         key: 'instagram',
-        value: '',
+        value: 'https://www.instagram.com/curaweda?igsh=MTBqN2dvZWJ6OTN3dg',
     },
     {
         key: 'linkedin',
-        value: '',
+        value: 'https://id.linkedin.com/company/curaweda-palagan-simbiotech',
     },
     {
         key: 'whatsapp',
