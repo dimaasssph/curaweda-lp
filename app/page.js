@@ -20,10 +20,12 @@ export default function Home() {
     <div className="bg-[#BACCCE]">
       <Navbar menus={menus} logo={"/assets/link-logopng.png"} />
       <Banner />
-      <SectionWithCards title={"Our Products"} items={productsData} unique_id={"products"} />
-      <SectionWithCards title={"USP"} items={usps} unique_id={"usp"} />
-      <SectionWithCards title={"Our Portofolio"} items={portofolios} shadow={true} textCenter={true} unique_id={"portofolio"} />
-      <ContactUs data={parameterDatas} />
+      <div className="w-full">
+        <SectionWithCards title={"Our Products"} items={productsData} unique_id={"products"} />
+        <SectionWithCards title={"USP"} items={usps} unique_id={"usp"} />
+        <SectionWithCards title={"Our Portofolio"} items={portofolios} shadow={true} textCenter={true} unique_id={"portofolio"} />
+        <ContactUs data={parameterDatas} />
+      </div>
     </div>
   );
 };
