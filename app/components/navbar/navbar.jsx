@@ -2,9 +2,34 @@
 import Link from "next/link"
 import Image from "next/image"
 import { usePathname } from "next/navigation"
+// import { useEffect, useState } from "react"
 
 export const Navbar = ({ menus, logo }) => {
     const pathName = usePathname();
+    // const [activeSection, setActiveSection] = useState(null);
+
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const sections = document.querySelectorAll('section');
+    //         const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+    //         sections.forEach(section => {
+    //             const top = section.offsetTop;
+    //             const height = section.offsetHeight;
+
+    //             if (scrollPosition >= top && scrollPosition < top + height) {
+    //                 setActiveSection(section.id);
+    //                 // console.log(activeSection);
+    //             }
+    //         });
+    //     };
+
+    //     window.addEventListener('scroll', handleScroll);
+
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
     return (
         <>
             <div className="w-full p-3 bg-[#3C7083]" key="navbar-top" />

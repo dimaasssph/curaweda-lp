@@ -1,0 +1,27 @@
+export const clients = [
+    '/assets/bank-bjb-1.png',
+    '/assets/btp-1.png',
+    '/assets/but-1.png',
+    '/assets/gnce-1.png',
+    '/assets/image-99.png',
+    '/assets/image-removebg-preview-2023-10-02t162136-2.png',
+    '/assets/itb-1.png',
+    '/assets/kesultanan-cirebon-1.png',
+    '/assets/logo-res-3.png',
+    '/assets/lpik-1.png',
+    '/assets/logo-smagaris-4.png',
+    '/assets/paylabs-1.png',
+    '/assets/pikiran-rakyat-1.png',
+    '/assets/sad-1.png',
+    '/assets/solelands-1.png',
+    '/assets/smk-13-1.png',
+    '/assets/smk-4-1.png',
+    '/assets/telu-1.png',
+    '/assets/tgh-1.png',
+]
+export const seenOnMedia = [
+    '/assets/favicon-1.png',
+    '/assets/image-99.png',
+    '/assets/pikiranrakyat-1.png',
+    '/assets/rri-bandung-1.png',
+]
