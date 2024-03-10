@@ -1,7 +1,7 @@
 import Image from "next/image"
 export const Banner = () => {
     return (
-        <section class="bg-white bg-[url(/assets/image-92-bg.png)] h-[calc(100vh-150px)] p-5">
+        <section class="bg-white bg-[url(/assets/image-92-bg.png)] h-auto p-5">
             <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 justify-center items-center">
                 <div class="mr-auto lg:col-span-7">
                     <Image src={"/assets/image-3.png"} width={200} height={200} />

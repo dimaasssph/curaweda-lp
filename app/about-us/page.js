@@ -1,7 +1,8 @@
 import "../globals.css";
-import {
-    Navbar
-} from "../components/navbar/navbar";
+// import {
+//     Navbar
+// } from "../components/navbar/navbar";
+import Navbar from "../components/navbar/navbar";
 import {
     menu
 } from "../data/menu";

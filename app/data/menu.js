@@ -18,12 +18,12 @@ export const menu = [{
     title: "Contact Us",
     link: "#contact-us"
   },
-  {
-    title: "News",
-    link: "/nwes"
-  },
-  {
-    title: "About Us",
-    link: "/about-us"
-  }
+  // {
+  //   title: "News",
+  //   link: "/nwes"
+  // },
+  // {
+  //   title: "About Us",
+  //   link: "/about-us"
+  // }
 ]
