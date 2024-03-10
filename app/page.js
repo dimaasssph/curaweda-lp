@@ -1,5 +1,6 @@
 import "./globals.css";
-import { Navbar } from "./components/navbar/navbar";
+// import { Navbar } from "./components/navbar/navbar";
+import Navbar from "./components/navbar/navbar";
 import { Banner } from "./components/banner/banner";
 import { menu } from "./data/menu";
 import { SectionWithCards } from "./sections/section-with-cards/SectionWithCards";
