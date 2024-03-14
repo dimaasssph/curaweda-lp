@@ -2,7 +2,7 @@
 export const Card = ({ item, shadow = false, textCenter = false, duration }) => {
     return (
         <div
-            class={`relative flex flex-col w-[350px] mt-6 text-gray-700 bg-transparent hover:shadow-md bg-clip-border pt-10 rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#3C7083] hover:text-white duration-400 min-w-300 ${shadow ? 'shadow-xl' : ''}`}
+            class={`relative flex flex-col w-[350px] mt-6 text-gray-700 bg-transparent hover:shadow-md bg-clip-border pt-10 rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-120 hover:bg-[#3C7083] hover:text-white duration-400 min-w-300 ${shadow ? 'shadow-xl' : ''}`}
             data-aos="fade-up"
             data-aos-duration={duration}
         >
