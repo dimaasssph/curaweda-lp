@@ -13,7 +13,7 @@ export const ClientSection = ({ data, seenOnMedia }) => {
                 ))}
             </div>
             {/* <div className="mx-auto"> */}
-            <h1 className="text-4xl font-bold text-[#3C7083] text-center">Our Clients & Partners</h1>
+            <h1 className="text-4xl font-bold text-[#3C7083] text-center">As Seen On Media</h1>
             {/* </div> */}
             <div className="w-full p-[100px] flex flex-wrap flex-grow align-middle justify-center space-x-3 space-y-3">
                 {seenOnMedia.map((image, index) => (

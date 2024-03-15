@@ -19,7 +19,7 @@ export const products = [{
         description: "The Smart School System optimizes operations with smart tech and AI, ensuring efficient resource management for ongoing educational relevance.",
     },
     {
-        image: "/assets/i-log-1.png",
+        image: "/assets/log-1-bg.png",
         title: "Transportation (I-Log)",
         description: "The Smart School System streamlines operations, improves services, and enhances financial and human resources management with smart tech and AI, ensuring educational relevance.",
     },
