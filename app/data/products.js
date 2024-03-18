@@ -4,7 +4,7 @@ export const products = [{
         description: "Our manufacturing IPS automates production scheduling, including mixing planning, and integrates essential systems for diverse company needs.",
     },
     {
-        image: "/assets/image-removebg-preview-2023-10-02t162136-2.png",
+        image: "/assets/IHMS.png",
         title: "Intelligent Hotel Management System (IHMS)",
         description: "The Smart Hotel System optimizes operations, minimizes errors, and elevates guest experiences through smart tech and AI, enhancing industry competitiveness.",
     },
